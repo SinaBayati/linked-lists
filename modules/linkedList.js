@@ -52,7 +52,10 @@ export class LinkedList{
   }
 
   contains(value){
-
+    for(let i = 0; i < this.size; i++){
+      if(this.at(i).value === value) return true;
+    }
+    return false;
   }
 
   find(value){
