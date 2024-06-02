@@ -10,3 +10,4 @@ console.log("FirstNode:",L.head.nextNode);
 console.log("TAIL:",L.tail);
 console.log("SIZE:",L.size);
 
+

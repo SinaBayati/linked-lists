@@ -39,12 +39,16 @@ export class LinkedList{
     for (let i = 0; i < index + 1; i++){
       target = target.nextNode;
     }
-    
+
     return target;
   }
 
   pop(){
-
+    const secondToLastItemIndex = this.size - 2;
+    const newLastItem = this.at(secondToLastItemIndex);
+    newLastItem.nextNode = null;
+    this.tail = newLastItem;
+    this.size -= 1;
   }
 
   contains(value){
