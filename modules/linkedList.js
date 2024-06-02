@@ -66,6 +66,10 @@ export class LinkedList{
   }
 
   toString(){
-
+    let resultString = "";
+    for(let i = 0; i < this.size; i++){
+      resultString += `( ${this.at(i).value} ) -> `;
+    }
+    return resultString + "null";
   }
 }
