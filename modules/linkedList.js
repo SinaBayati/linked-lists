@@ -32,7 +32,15 @@ export class LinkedList{
   }
 
   at(index){
+    let target = this.head;
 
+    // here we are adding 1 to the index so that we
+    // don't count the head node as the first node
+    for (let i = 0; i < index + 1; i++){
+      target = target.nextNode;
+    }
+    
+    return target;
   }
 
   pop(){
