@@ -59,7 +59,10 @@ export class LinkedList{
   }
 
   find(value){
-
+    for(let i = 0; i < this.size; i++){
+      if(this.at(i).value === value) return i;
+    }
+    return null;
   }
 
   toString(){

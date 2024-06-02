@@ -11,5 +11,6 @@ console.log("FirstNode:",L.head.nextNode);
 console.log("TAIL:",L.tail);
 console.log("SIZE:",L.size);
 console.log(L.contains(3));
+console.log(L.find(3));
 
 
