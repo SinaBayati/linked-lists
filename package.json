@@ -1,0 +1,17 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "This is the linked lists project as described [here](https://www.theodinproject.com/lessons/javascript-linked-lists) in  [The Odin Project](https://www.theodinproject.com/) curriculum.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
