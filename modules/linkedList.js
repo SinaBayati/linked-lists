@@ -19,16 +19,16 @@ export class LinkedList{
   }
 
   prepend(value){
-    // let newNode = null;
-    // if (this.size === 0) {
-    //   newNode = new Node(value,null);
-    //   this.head.nextNode = newNode;
-    //   this.tail = newNode;
-    // } else {
-    //   newNode = new Node(value,this.head.nextNode);
-    //   this.head.nextNode = newNode;
-    // }
-    // this.size += 1;
+    let newNode = null;
+    if (this.size === 0) {
+      newNode = new Node(value,null);
+      this.head.nextNode = newNode;
+      this.tail = newNode;
+    } else {
+      newNode = new Node(value,this.head.nextNode);
+      this.head.nextNode = newNode;
+    }
+    this.size += 1;
   }
 
   at(index){
