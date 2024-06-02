@@ -1,5 +1,6 @@
-export class nodeObj{
-  sayHello(){
-    return "HELLO";
+export class Node{
+  constructor(value,nextNode){
+    this.value = value;
+    this.nextNode = nextNode;
   }
 }
